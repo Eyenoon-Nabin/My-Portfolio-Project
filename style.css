@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -104,4 +109,49 @@
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+.logo h3{
+font-size: 20px;
+font-weight: bold;
+}
+.orenge{
+  color: rgb(160, 105, 4);
+  border: 8px black;
+}
+header{
+  background-color: rgb(228, 196, 164);
+  width: auto;
+  align-content: center;
+  padding-top: 80px;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  padding: auto;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  color: rgb(27, 2, 2);
+  text-decoration: none;
+  align-items: center;
+}
+nav .menu a {
+  font-size: 10px;
+  color: #000;
+  text-decoration: none;
+  
+}
+.btn{
+  background-color: rgb(8, 128, 88);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  size-adjust: initial;
 }
