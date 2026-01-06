@@ -6,138 +6,34 @@
 }
 
 
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
 }
-
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
 
 .logo h3 {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 900;
 }
 
 
 .orenge {
-  color: rgb(255, 162, 0);
+  color: #FD6E0A;
 }
 
 
 header {
-  background-color: rgb(240, 228, 217);
-  background: url("../images/developer.png") , url("../images/header_bg.png"),rgb(255, 248, 236);
-  background-position: top left, bottom right;
+  background-color: #FFF8F3;
+  background: url("../images/developer.png") , url("../images/header_bg.png") , #FFF8F3;
+  background-position: bottom left, bottom right;
   background-repeat: no-repeat;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 
 nav {
-  width: 72%;
-  max-width: 1912px;
+  width: 73%;
+  max-width: 1140px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -148,23 +44,25 @@ nav .menu {
   display: flex;
   list-style-type: none;
   gap: 15px;
-  color: rgb(27, 2, 2);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   align-items: center;
 }
 
 nav .menu a {
-  font-size: 10px;
+  font-size: 20px;
   color: #000;
   text-decoration: none;
 }
 
 
 .btn {
-  background-color: rgb(239, 157, 255);
+  background-color: #FD6E0A;
   border: none;
   border-radius: 5px;
-  padding: 3px 5px;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -176,23 +74,32 @@ nav .menu a {
   justify-content: space-between;
   align-items: center;
 }
-#banner .banner-content h4 {
+#banner .banner-contant h2 {
   font-size: 45px;
   font-weight: 400;
-  color: blueviolet;
+  color: #411b00;
+  margin-bottom: 5px;
 }
-#banner .banner-content h1 {
-  font-size: 45px;
+
+#banner .banner-contant h1 {
+  font-size: 85px;
   font-weight: 800;
-  color: blueviolet;
+  color: #411b00;
+  margin-bottom: 25px;
 }
-#banner .banner-content p {
+#banner .banner-contant p {
   font-size: 18px;
   font-weight: 200;
-  line-height: 1.2;
+  line-height: 30px;
   color: rgb(0, 0, 0);
+  margin-bottom: 30px;
 }
 #banner .banner-content {
   max-width: 585px;
+  vertical-align: middle;
+}
+
+#banner .image {
+  max-width: 900px;
   vertical-align: middle;
 }
